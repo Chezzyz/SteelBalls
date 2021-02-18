@@ -18,6 +18,6 @@ public class RoadManager : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.back * roadSpeed * Time.deltaTime);
+        transform.Translate(Vector3.left * roadSpeed * Time.deltaTime);
     }
 }
