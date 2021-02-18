@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3292970970592889468, guid: 856da75f5ee9d8c45ba7f3614d1ecb05, type: 3}
       propertyPath: roadSpeed
-      value: 24.4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6470863792703326752, guid: 856da75f5ee9d8c45ba7f3614d1ecb05, type: 3}
       propertyPath: m_Name

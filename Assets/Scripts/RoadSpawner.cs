@@ -27,7 +27,7 @@ public class RoadSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(roadCD);
         var newRoad = Instantiate(TestRoad,SpawnPoint);
-        newRoad.transform.localPosition = new Vector3(transform.position.x, transform.position.y, 1);
+        newRoad.transform.localPosition = Vector3.zero;
         newRoad.GetComponent<RoadManager>().Move();
         StartCoroutine(Spawn());
     }
