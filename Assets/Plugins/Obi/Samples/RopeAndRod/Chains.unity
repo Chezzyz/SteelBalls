@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: b462ea3f9240ba4498c8517e8a69a116, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 70113434fb6c9b04d8b0783bae8ad14c, type: 2}
 --- !u!196 &5
 NavMeshSettings:
   serializedVersion: 2
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   thickness: 0
   m_SourceCollider: {fileID: 512808550}
   m_DistanceField: {fileID: 0}
---- !u!1 &764009415
+--- !u!1 &666146966
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1043,8 +1043,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 764009417}
-  - component: {fileID: 764009416}
+  - component: {fileID: 666146968}
+  - component: {fileID: 666146967}
   m_Layer: 0
   m_Name: OniCollisionWorld
   m_TagString: Untagged
@@ -1052,25 +1052,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &764009416
+--- !u!114 &666146967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764009415}
+  m_GameObject: {fileID: 666146966}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d02d25c24c8574316883c920912e4fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &764009417
+--- !u!4 &666146968
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764009415}
+  m_GameObject: {fileID: 666146966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
