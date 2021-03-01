@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FirstLevel.unity
+    path: Assets/Scenes/GavnoBalls.unity
     guid: 713b1a2173d5cc145b9a18504f4e5fd1
   m_configObjects: {}
